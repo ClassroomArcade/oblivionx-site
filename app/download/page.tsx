@@ -23,13 +23,7 @@ export default function DownloadPage() {
 
         {/* Discord Widget */}
         <div style={{ marginTop: '48px' }}>
-          <iframe
-            src="https://discord.com/widget?id=1467564541335568499&theme=dark"
-            width="350"
-            height="500"
-            frameBorder="0"
-            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-          ></iframe>
+          <iframe src="https://discord.com/widget?id=1467564541335568499&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
         </div>
       </div>
     </PageTransition>
