@@ -1,5 +1,5 @@
-"use client"; // Required for client-side interactivity
-import { useState } from "react";
+"use client";
+import { useState, useEffect } from "react";
 
 export default function FeedbackPage() {
   const [name, setName] = useState("");
@@ -7,8 +7,9 @@ export default function FeedbackPage() {
   const [selectedEmoji, setSelectedEmoji] = useState<string | null>(null);
   const [success, setSuccess] = useState(false);
 
-  // Your Google Script URL here
-  const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxBl3Txmqt0R2MucMCvYXXGHd4XwzrK4y6YJMU7EBYjdCs27mGFXOXcMJCO0aTmNwgCYw/exec";
+  // ✅ Your Google Script URL
+  const SCRIPT_URL =
+    "https://script.google.com/macros/s/AKfycbxBl3Txmqt0R2MucMCvYXXGHd4XwzrK4y6YJMU7EBYjdCs27mGFXOXcMJCO0aTmNwgCYw/exec";
 
   const handleSubmit = async () => {
     if (!name || !feedback || !selectedEmoji) {
@@ -31,7 +32,6 @@ export default function FeedbackPage() {
       setName("");
       setFeedback("");
       setSelectedEmoji(null);
-
       setTimeout(() => setSuccess(false), 3000);
     } catch (err) {
       console.error(err);
@@ -39,7 +39,6 @@ export default function FeedbackPage() {
     }
   };
 
-  // Confetti
   const launchConfetti = () => {
     for (let i = 0; i < 50; i++) {
       const c = document.createElement("div");
@@ -58,32 +57,37 @@ export default function FeedbackPage() {
     }
   };
 
-  // Particle effect (once)
-  if (typeof window !== "undefined" && !document.querySelector(".particle-initialized")) {
-    for (let i = 0; i < 35; i++) {
-      const p = document.createElement("div");
-      p.className = "particle";
-      p.style.width = p.style.height = Math.random() * 10 + 5 + "px";
-      p.style.left = Math.random() * 100 + "vw";
-      p.style.animationDuration = 3 + Math.random() * 5 + "s";
-      document.body.appendChild(p);
+  // Particle background (once)
+  useEffect(() => {
+    if (!document.querySelector(".particle-initialized")) {
+      for (let i = 0; i < 35; i++) {
+        const p = document.createElement("div");
+        p.className = "particle";
+        p.style.width = p.style.height = Math.random() * 10 + 5 + "px";
+        p.style.left = Math.random() * 100 + "vw";
+        p.style.animationDuration = 3 + Math.random() * 5 + "s";
+        document.body.appendChild(p);
+      }
+      const marker = document.createElement("div");
+      marker.className = "particle-initialized";
+      document.body.appendChild(marker);
     }
-    const marker = document.createElement("div");
-    marker.className = "particle-initialized";
-    document.body.appendChild(marker);
-  }
+  }, []);
 
   return (
-    <div style={{
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      height: "100vh",
-      background: "#0f0f13",
-      position: "relative",
-      color: "#fff",
-      overflow: "hidden"
-    }}>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        minHeight: "100vh",
+        background: "#0f0f13",
+        position: "relative",
+        color: "#fff",
+        overflow: "hidden",
+        padding: "20px",
+      }}
+    >
       <style>{`
         .feedback-container {
           position: relative;
@@ -92,9 +96,12 @@ export default function FeedbackPage() {
           padding: 40px 30px;
           border-radius: 20px;
           box-shadow: 0 0 50px rgba(124,92,255,0.7);
-          width: 360px;
+          width: 100%;
+          max-width: 400px;
           text-align: center;
+          transition: transform 0.3s;
         }
+        .feedback-container:hover { transform: scale(1.02); }
         h1 {
           font-size: 2rem;
           margin-bottom: 25px;
@@ -104,25 +111,39 @@ export default function FeedbackPage() {
         }
         input, textarea {
           width: 100%;
-          padding: 12px;
+          padding: 14px;
           margin-bottom: 15px;
           border-radius: 12px;
           border: none;
           background: #2a2a3a;
           color: #fff;
           font-size: 1rem;
+          transition: 0.3s;
         }
         input:focus, textarea:focus {
           outline: none;
-          box-shadow: 0 0 10px #7c5cff;
+          box-shadow: 0 0 12px #7c5cff;
         }
-        .emojis { display: flex; justify-content: center; gap: 15px; margin-bottom: 20px; }
-        .emojis button { font-size: 2rem; background: none; border: none; cursor: pointer; transition: transform 0.2s, filter 0.2s; }
-        .emojis button:hover { transform: scale(1.4); filter: drop-shadow(0 0 5px #7c5cff); }
+        textarea { min-height: 100px; resize: none; }
+        .emojis {
+          display: flex;
+          justify-content: center;
+          gap: 20px;
+          margin-bottom: 20px;
+          flex-wrap: wrap;
+        }
+        .emojis button {
+          font-size: 2rem;
+          background: none;
+          border: none;
+          cursor: pointer;
+          transition: transform 0.2s, filter 0.2s;
+        }
+        .emojis button:hover { transform: scale(1.4); filter: drop-shadow(0 0 8px #7c5cff); }
         .emojis .selected { transform: scale(1.6); filter: drop-shadow(0 0 15px #7c5cff); }
         button.submit {
           width: 100%;
-          padding: 12px;
+          padding: 14px;
           border: none;
           border-radius: 12px;
           background: linear-gradient(90deg, #7c5cff, #5fdde5);
@@ -131,9 +152,9 @@ export default function FeedbackPage() {
           cursor: pointer;
           transition: transform 0.2s, box-shadow 0.2s;
         }
-        button.submit:hover { transform: scale(1.05); box-shadow: 0 0 15px rgba(124,92,255,0.8); }
+        button.submit:hover { transform: scale(1.05); box-shadow: 0 0 20px rgba(124,92,255,0.8); }
         .success {
-          font-size: 1.4rem;
+          font-size: 1.3rem;
           margin-top: 15px;
           opacity: 0;
           transition: opacity 0.5s;
@@ -143,6 +164,13 @@ export default function FeedbackPage() {
         .particle { position: absolute; border-radius: 50%; background: rgba(124, 92, 255, 0.5); animation: float 6s linear infinite; }
         @keyframes float { 0% { transform: translateY(100vh) scale(0.5); } 100% { transform: translateY(-10vh) scale(1); } }
         @keyframes confetti-fall { 0% { transform: translateY(0) rotate(0deg); } 100% { transform: translateY(100vh) rotate(720deg); opacity: 0; } }
+        @media (max-width: 480px) {
+          .feedback-container { padding: 30px 20px; }
+          h1 { font-size: 1.6rem; }
+          .emojis button { font-size: 1.8rem; }
+          input, textarea { font-size: 0.95rem; padding: 12px; }
+          button.submit { font-size: 0.95rem; padding: 12px; }
+        }
       `}</style>
 
       <div className="feedback-container">
@@ -151,15 +179,15 @@ export default function FeedbackPage() {
           type="text"
           placeholder="Your Name"
           value={name}
-          onChange={e => setName(e.target.value)}
+          onChange={(e) => setName(e.target.value)}
         />
         <textarea
           placeholder="Your Feedback"
           value={feedback}
-          onChange={e => setFeedback(e.target.value)}
+          onChange={(e) => setFeedback(e.target.value)}
         />
         <div className="emojis">
-          {["😃","😐","😞"].map(e => (
+          {["😃", "😐", "😞"].map((e) => (
             <button
               key={e}
               className={selectedEmoji === e ? "selected" : ""}
@@ -169,8 +197,12 @@ export default function FeedbackPage() {
             </button>
           ))}
         </div>
-        <button className="submit" onClick={handleSubmit}>Submit Feedback</button>
-        <div className={`success ${success ? "show" : ""}`}>🎉 Thank you for your feedback!</div>
+        <button className="submit" onClick={handleSubmit}>
+          Submit Feedback
+        </button>
+        <div className={`success ${success ? "show" : ""}`}>
+          🎉 Thank you for your feedback!
+        </div>
       </div>
     </div>
   );
