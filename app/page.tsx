@@ -1,10 +1,12 @@
-// app/page.tsx
 'use client'
 
 import React from 'react'
+import { useRouter } from 'next/navigation' // 1. Import the router
 import PageTransition from '@/components/PageTransition'
 
 export default function HomePage() {
+  const router = useRouter() // 2. Initialize the router
+
   return (
     <PageTransition>
       <section
@@ -58,7 +60,8 @@ export default function HomePage() {
               e.currentTarget.style.transform = 'scale(1)'
               e.currentTarget.style.boxShadow = '0 8px 30px rgba(124,92,255,0.4)'
             }}
-            onClick={() => console.log('Go to Download Page')}
+            // 3. Update the onClick handler
+            onClick={() => router.push('/download')} 
           >
             Download
           </button>
@@ -83,7 +86,8 @@ export default function HomePage() {
               e.currentTarget.style.background = 'transparent'
               e.currentTarget.style.color = '#e8e9f0'
             }}
-            onClick={() => console.log('Go to Features Page')}
+            // 4. Update this one too for a better UX
+            onClick={() => router.push('/features')}
           >
             Learn More
           </button>
