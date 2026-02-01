@@ -1,0 +1,300 @@
+[00:00:02.353] Server  LOG     ✓ Ready in 1662ms
+[00:00:10.754] Server  ERROR   ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:00:11.514] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:11.514] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `RootLayout`.
+[00:00:45.186] Server  LOG     ✓ Compiled in 291ms
+[00:00:47.069] Server  ERROR   ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:00:48.421] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:48.421] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `RootLayout`.
+[00:00:48.427] Server  LOG     ✓ Compiled in 3ms
+[00:00:52.368] Server  ERROR   ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:00:52.875] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:52.875] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `RootLayout`.
+[00:01:55.816] Server  LOG     ✓ Compiled in 399ms
+[00:01:57.080] Server  ERROR   ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:01:57.793] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:57.793] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `RootLayout`.
+[00:02:08.676] Server  ERROR   ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:02:09.054] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:09.200] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `RootLayout`.
+[00:02:57.366] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:02:57.374] Server  LOG     ✓ Compiled in 86ms
+[00:02:58.575] Server  ERROR   ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:02:59.045] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:00.574] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `RootLayout`.
+[00:03:04.317] Server  ERROR   ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:03:04.836] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:04.999] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `RootLayout`.
+[00:05:10.740] Server  ERROR   ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:05:11.194] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:11.835] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `RootLayout`.
+[00:05:57.266] Server  LOG     ✓ Compiled in 137ms
+[00:05:57.314] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:05:58.994] Server  ERROR   ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:05:59.745] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:00.142] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `RootLayout`.
+[00:06:05.683] Server  LOG     ✓ Compiled in 654ms
+[00:06:05.709] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:07.230] Server  ERROR   ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:06:07.815] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:08.417] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `HomePage`.
+[00:06:11.376] Server  LOG     ✓ Compiled in 427ms
+[00:06:13.348] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:20.906] Server  ERROR   ⨯ ./OneDrive/Documents/oblivionx/app/layout.tsx:3:1
+Module not found: Can't resolve '@/components/ClientWrapper'
+  1 | // app/layout.tsx
+  2 | import './globals.css'
+> 3 | import ClientWrapper from '@/components/ClientWrapper'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  6 |   return (
+
+Import map: aliased to relative './components/ClientWrapper' inside of [project]/OneDrive/Documents/oblivionx
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:20.908] Server  ERROR   ⨯ ./OneDrive/Documents/oblivionx/app/layout.tsx:3:1
+Module not found: Can't resolve '@/components/ClientWrapper'
+  1 | // app/layout.tsx
+  2 | import './globals.css'
+> 3 | import ClientWrapper from '@/components/ClientWrapper'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  6 |   return (
+
+Import map: aliased to relative './components/ClientWrapper' inside of [project]/OneDrive/Documents/oblivionx
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:21.094] Server  ERROR   ⨯ ./OneDrive/Documents/oblivionx/app/layout.tsx:3:1
+Module not found: Can't resolve '@/components/ClientWrapper'
+  1 | // app/layout.tsx
+  2 | import './globals.css'
+> 3 | import ClientWrapper from '@/components/ClientWrapper'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  6 |   return (
+
+Import map: aliased to relative './components/ClientWrapper' inside of [project]/OneDrive/Documents/oblivionx
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:21.097] Server  ERROR   ⨯ ./OneDrive/Documents/oblivionx/app/layout.tsx:3:1
+Module not found: Can't resolve '@/components/ClientWrapper'
+  1 | // app/layout.tsx
+  2 | import './globals.css'
+> 3 | import ClientWrapper from '@/components/ClientWrapper'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  6 |   return (
+
+Import map: aliased to relative './components/ClientWrapper' inside of [project]/OneDrive/Documents/oblivionx
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:21.100] Server  ERROR   ⨯ ./OneDrive/Documents/oblivionx/app/layout.tsx:3:1
+Module not found: Can't resolve '@/components/ClientWrapper'
+  1 | // app/layout.tsx
+  2 | import './globals.css'
+> 3 | import ClientWrapper from '@/components/ClientWrapper'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  6 |   return (
+
+Import map: aliased to relative './components/ClientWrapper' inside of [project]/OneDrive/Documents/oblivionx
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:21.102] Server  ERROR   ⨯ ./OneDrive/Documents/oblivionx/app/layout.tsx:3:1
+Module not found: Can't resolve '@/components/ClientWrapper'
+  1 | // app/layout.tsx
+  2 | import './globals.css'
+> 3 | import ClientWrapper from '@/components/ClientWrapper'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  6 |   return (
+
+Import map: aliased to relative './components/ClientWrapper' inside of [project]/OneDrive/Documents/oblivionx
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:21.104] Server  ERROR   ⨯ ./OneDrive/Documents/oblivionx/app/layout.tsx:3:1
+Module not found: Can't resolve '@/components/ClientWrapper'
+  1 | // app/layout.tsx
+  2 | import './globals.css'
+> 3 | import ClientWrapper from '@/components/ClientWrapper'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  6 |   return (
+
+Import map: aliased to relative './components/ClientWrapper' inside of [project]/OneDrive/Documents/oblivionx
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:21.106] Server  ERROR   ⨯ ./OneDrive/Documents/oblivionx/app/layout.tsx:3:1
+Module not found: Can't resolve '@/components/ClientWrapper'
+  1 | // app/layout.tsx
+  2 | import './globals.css'
+> 3 | import ClientWrapper from '@/components/ClientWrapper'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  6 |   return (
+
+Import map: aliased to relative './components/ClientWrapper' inside of [project]/OneDrive/Documents/oblivionx
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:21.111] Server  ERROR   ⨯ ./OneDrive/Documents/oblivionx/app/layout.tsx:3:1
+Module not found: Can't resolve '@/components/ClientWrapper'
+  1 | // app/layout.tsx
+  2 | import './globals.css'
+> 3 | import ClientWrapper from '@/components/ClientWrapper'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  6 |   return (
+
+Import map: aliased to relative './components/ClientWrapper' inside of [project]/OneDrive/Documents/oblivionx
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:21.114] Server  ERROR   ⨯ ./OneDrive/Documents/oblivionx/app/layout.tsx:3:1
+Module not found: Can't resolve '@/components/ClientWrapper'
+  1 | // app/layout.tsx
+  2 | import './globals.css'
+> 3 | import ClientWrapper from '@/components/ClientWrapper'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  6 |   return (
+
+Import map: aliased to relative './components/ClientWrapper' inside of [project]/OneDrive/Documents/oblivionx
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:21.118] Server  ERROR   ⨯ ./OneDrive/Documents/oblivionx/app/layout.tsx:3:1
+Module not found: Can't resolve '@/components/ClientWrapper'
+  1 | // app/layout.tsx
+  2 | import './globals.css'
+> 3 | import ClientWrapper from '@/components/ClientWrapper'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  6 |   return (
+
+Import map: aliased to relative './components/ClientWrapper' inside of [project]/OneDrive/Documents/oblivionx
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:21.119] Server  ERROR   ⨯ ./OneDrive/Documents/oblivionx/app/layout.tsx:3:1
+Module not found: Can't resolve '@/components/ClientWrapper'
+  1 | // app/layout.tsx
+  2 | import './globals.css'
+> 3 | import ClientWrapper from '@/components/ClientWrapper'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  6 |   return (
+
+Import map: aliased to relative './components/ClientWrapper' inside of [project]/OneDrive/Documents/oblivionx
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:21.121] Server  LOG     ✓ Compiled in 437ms
+[00:06:21.820] Browser ERROR   ./OneDrive/Documents/oblivionx/app/layout.tsx:3:1
+Module not found: Can't resolve '@/components/ClientWrapper'
+  1 | // app/layout.tsx
+  2 | import './globals.css'
+> 3 | import ClientWrapper from '@/components/ClientWrapper'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  6 |   return (
+
+Import map: aliased to relative './components/ClientWrapper' inside of [project]/OneDrive/Documents/oblivionx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:08:09.555] Server  LOG     ✓ Compiled in 212ms
+[00:08:10.940] Server  ERROR   ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:08:11.568] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:11.568] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `RootLayout`.
+[00:08:12.617] Server  LOG     ✓ Compiled in 318ms
+[00:08:12.639] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:08:12.639] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:08:13.846] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:27.213] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:32.346] Server  ERROR   ⨯ Error: The default export is not a React Component in "/download/page"
+[00:08:32.850] Server  ERROR   ⨯ Error: The default export is not a React Component in "/download/page"
+[00:08:34.232] Server  ERROR   ⨯ Error: The default export is not a React Component in "/download/page"
+[00:08:34.646] Server  ERROR   ⨯ Error: The default export is not a React Component in "/download/page"
+[00:08:35.074] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/download/page"
+[00:09:56.907] Server  LOG     ✓ Compiled in 90ms
+[00:11:34.109] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:39.447] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. allowTransparency allowtransparency
+[00:14:41.034] Server  LOG     ✓ Compiled in 70ms
+[00:14:42.039] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? frameborder frameBorder
+[00:15:29.751] Server  LOG     ✓ Compiled in 157ms
+[00:15:44.431] Server  ERROR   React does not recognize the `allowTransparency` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `allowtransparency` instead. If you accidentally passed it from a parent component, remove it from the DOM element.
+[00:15:45.036] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:45.036] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. allowTransparency allowtransparency
+[00:16:09.572] Server  LOG     ✓ Compiled in 103ms
+[00:16:20.465] Server  LOG     ✓ Compiled in 108ms
+[00:16:26.747] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:28.184] Server  LOG     ✓ Compiled in 210ms
+[00:35:42.769] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:45.408] Browser LOG     Go to Download Page
+[00:35:48.059] Browser LOG     Go to Features Page

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/zrsyt/OneDrive/Documents/oblivionx/components/PageTransition.tsx"],"sourcesContent":["// Page transitions\n"],"names":[],"mappings":"AAAA,mBAAmB"}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/zrsyt/OneDrive/Documents/oblivionx/app/page.tsx"],"sourcesContent":["// app/page.tsx\nimport React from 'react'\nimport PageTransition from '@/components/PageTransition'\n\nexport default function HomePage() {\n  return (\n    <PageTransition>\n      <div style={{ padding: '120px 40px', maxWidth: '1100px', margin: '0 auto' }}>\n        <h1>The next-gen <span style={{ color: '#7c5cff' }}>Roblox Executor</span></h1>\n        <p style={{ color: '#9aa0b5', maxWidth: '520px' }}>\n          OblivionX is a sleek, fast, and modern executor built for performance and stability.\n        </p>\n      </div>\n    </PageTransition>\n  )\n}\n"],"names":[],"mappings":"AAAA,eAAe;;;;;;AAEf;;;AAEe,SAAS;IACtB,qBACE,oRAAC,8KAAc;kBACb,cAAA,oRAAC;YAAI,OAAO;gBAAE,SAAS;gBAAc,UAAU;gBAAU,QAAQ;YAAS;;8BACxE,oRAAC;;wBAAG;sCAAa,oRAAC;4BAAK,OAAO;gCAAE,OAAO;4BAAU;sCAAG;;;;;;;;;;;;8BACpD,oRAAC;oBAAE,OAAO;wBAAE,OAAO;wBAAW,UAAU;oBAAQ;8BAAG;;;;;;;;;;;;;;;;;AAM3D"}}]
+}

@@ -1,0 +1,13 @@
+__turbopack_load_page_chunks__("/_app", [
+  "static/chunks/bf749_next_dist_compiled_d8b7d827._.js",
+  "static/chunks/bf749_next_dist_shared_lib_3d130a2a._.js",
+  "static/chunks/bf749_next_dist_client_f3394c4d._.js",
+  "static/chunks/bf749_next_dist_dd10398b._.js",
+  "static/chunks/bf749_next_app_101f01a7.js",
+  "static/chunks/[next]_entry_page-loader_ts_9ba3c6d8._.js",
+  "static/chunks/bf749_react-dom_838484e8._.js",
+  "static/chunks/bf749_6f539c6d._.js",
+  "static/chunks/[root-of-the-server]__c702c5ea._.js",
+  "static/chunks/OneDrive_Documents_oblivionx_pages__app_2da965e7._.js",
+  "static/chunks/turbopack-OneDrive_Documents_oblivionx_pages__app_dff8abba._.js"
+])

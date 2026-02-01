@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/zrsyt/OneDrive/Documents/oblivionx/app/layout.tsx"],"sourcesContent":["// app/layout.tsx\nimport './globals.css'\nimport ClientWrapper from '@/components/ClientWrapper'\n\nexport default function RootLayout({ children }: { children: React.ReactNode }) {\n  return (\n    <html lang=\"en\">\n      <body>\n        <ClientWrapper>\n          {children}\n        </ClientWrapper>\n      </body>\n    </html>\n  )\n}\n"],"names":[],"mappings":"AAAA,iBAAiB;;;;;;AAEjB;;;;AAEe,SAAS,WAAW,EAAE,QAAQ,EAAiC;IAC5E,qBACE,oRAAC;QAAK,MAAK;kBACT,cAAA,oRAAC;sBACC,cAAA,oRAAC,6KAAa;0BACX;;;;;;;;;;;;;;;;AAKX"}},
+    {"offset": {"line": 43, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/zrsyt/OneDrive/Documents/oblivionx/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,yJACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
+}
